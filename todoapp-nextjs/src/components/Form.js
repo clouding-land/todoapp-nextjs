@@ -37,8 +37,8 @@ const Form = ({ text, setText, todos, setTodos, editTodo, setEditTodo }) => {
   };
 
   return (
-    <form onSubmit={onFormSubmit} style={{marginLeft:400,marginTop:40}}>
-        <div class="row g-3 align-items-center">
+    <form onSubmit={onFormSubmit} style={{marginLeft:300,marginTop:40}}>
+        <div class="card row g-3 align-items-center" style={{width:700,paddingBottom:10}}>
             <div class="col-6">
             <input
                 type="text"
